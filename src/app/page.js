@@ -22,6 +22,9 @@ const Homepage = () => {
     setTimeout(() => {
       setIsClicked(false);
     }, 2000);
+    setTimeout(() => {
+      return;
+    }, 10000);
   }, [isClicked]);
 
   return (
