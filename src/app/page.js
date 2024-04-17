@@ -38,7 +38,7 @@ const Homepage = () => {
         transition={{ ease: "linear", duration: 2, repeat: Infinity }}
         className="  py-2 rounded-lg mx-auto"
       >
-        <div className="bg-white rounded-lg shadow-lg relative w-fit py-12 px-12">
+        <div className="bg-white rounded-lg shadow-lg relative w-fit py-12 md:px-12 px-4">
           <div className="">
             <Image
               src={arunsir}
