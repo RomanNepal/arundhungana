@@ -28,7 +28,7 @@ const Homepage = () => {
   }, [isClicked]);
 
   return (
-    <motion.div className="bg-gray-100 min-h-screen flex items-center justify-center overflow-hidden">
+    <motion.div className="bg-gray-100 min-h-screen p-12 w-full flex items-center justify-center overflow-hidden">
       <motion.button
         onClick={handleButtonClick}
         whileHover={{ scale: 1.1 }}
@@ -38,7 +38,7 @@ const Homepage = () => {
         transition={{ ease: "linear", duration: 2, repeat: Infinity }}
         className="  py-2 rounded-lg mx-auto"
       >
-        <div className="bg-white rounded-lg shadow-lg relative w-[40rem] py-12">
+        <div className="bg-white rounded-lg shadow-lg relative w-fit py-12 px-12">
           <div className="">
             <Image
               src={arunsir}
